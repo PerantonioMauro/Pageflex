@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+}
+
+h1{
+  display: inline-table;
+  font-size: 20px;
+}
+
+.listhead{
+  display: flex;
+  list-style: none;
+  text-align: center;
+  padding-right: 5%;
+
+}
+
+
+.btn1{
+  background: none;
+  border: 0;
+  padding: 3%;
+}
+
+.btn2{
+  color: #f7f8f9;
+  background-color: #2ad167;
+  border: 0;
+  border-radius: 15%;
+  padding: 3%;
+}
+
+.btns{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 15%;
+  padding-left: 10%;
+}
+
+.logoverde{
+  width: 10%;
+}
+
+.modal-open{
+  display: flex;
+  background-color: #2a3342;
+  color: #f7f8f9;
+  
+}
+
+.modalheader{
+
+  text-align: center;
+}
+
+.modalbody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgpopup{
+  width: 10%;
+  background-color: #2ad167;
+  padding: 1%;
+  border-radius: 10%;
+}
+
+.closebutton{
+  display: flex;
+}
+
+@media screen  and (max-width: 390px){
+  .header{
+      display: flex;
+      flex-direction: column;
+  }
+  
+}

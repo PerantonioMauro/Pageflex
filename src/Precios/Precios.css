@@ -1,0 +1,62 @@
+.precios{
+    background-color: #f7f8f9;
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    grid-template-rows: 1fr;
+    justify-items: stretch;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.Solidemo{
+   background-color: #2ad167;
+   color: #f7f8f9;
+   padding: 1%;
+   border-radius: 10%;
+   border-width: 0cm;
+}
+
+.nameplan{
+    color: #2ad167;
+    padding: 6%;
+}
+
+ul {
+    list-style-image: url(../check-symbol-4794.svg);
+}
+
+.spanfacturacion{
+   color: #93a1b6;
+   padding: 5%;
+}
+
+.divpadre{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5%;
+}
+
+.plan{
+    padding: 7%;
+}
+
+.caracteristicas{
+    line-height: 2;
+}
+
+@media screen  and (max-width: 390px){
+    .precios{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divpadre{
+        
+         display: flex;
+        flex-direction: column;
+            
+    }
+    
+    
+}
